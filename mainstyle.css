@@ -29,7 +29,17 @@
      padding-top: 10px;
      color: rgb(5, 87, 141);
      
- }
+}
+a.one:link, a.one:visited{
+    color:rgb(5, 87, 141);
+}
+a.two:link, a.two:visited{
+    color:rgb(5, 87, 141);
+}
+a.one:hover,a.two:hover{
+    color:black;
+}
+
  .logo{
      background-image:url("back.png");
      position: relative;
@@ -205,3 +215,41 @@ right: 6px;
 width: 40px;
 background-color: #fff;
 }
+.card1{
+    width:18rem;
+    padding-top: 4%;
+    padding-left: 5%;
+    float:left;
+    
+}
+.card-img-top1{
+    width:275px;
+    height:200px;
+}
+.card2{
+    width:18rem;
+    padding-top: 4%;
+    padding-left: 5%;
+    float:left;
+    
+}
+.card-img-top2{
+    width:275px;
+    height:200px;
+}
+
+.card3{
+    width:18rem;
+    padding-top: 4%;
+    padding-left: 5%;
+    float:left;
+    
+}
+.card-img-top3{
+    width:275px;
+    height:200px;
+}
+.card-text{
+    font-size: 20px;
+}
+
