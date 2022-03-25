@@ -3,25 +3,26 @@
     <head>
         <title>mainPage</title>
         <link rel="stylesheet" href="mainstyle.css">
+        <script src="script.js"></script>
     </head>
 
     <body>
 
         <div id="heading" >
          <div class="centre" >FlatMate<br></div> 
-         <div class="centre1">(We Serve You)</div>
+         <div class="centre1">(Rent & Go)</div>
          <div class="logo"></div>
-         <div class="option"><b><a  class="one" href="login.htm">Login</a> &nbsp;&nbsp;&nbsp;&nbsp;<a class="two" href="signup.htm">Sign Up</b></div>
+         <div class="option"><b><a  class="one" href="login.htm">Login</a> &nbsp;&nbsp;&nbsp;&nbsp;<a class="two" href="signup.htm">Sign Up</a></b></div>
          </div>
     
          <div id="cover">
-            <form method="get" action="">
+            <form method="post" action="">
           <div class="tb">
           <div class="td">
           <!-- The following tag is input for the text input field which is used as a seach field on a web page -->
           <input type="text" placeholder="Search" required></div>
                 <div class="td" id="s-cover">
-                  <button type="submit">
+                  <button type="submit" onclick="showfeed()">
                     <div id="s-circle"> </div>
                     <span> </span>
                   </button>
@@ -32,9 +33,9 @@
     
     
         <div class="sidenav">
-            <a href="form1.html">List Property</a>
-            <a href="form3.html">RoomPartner</a>
+            <a href="#">About Us</a>
             <a href="#">Contact Us</a>
+            <a href="#">Advertisment</a>
         </div>
     
         <div class="main">
@@ -52,11 +53,11 @@
             </div></a>
           </div>
 
-          <div class="card3" >
+          <div class="card3" ><a href="#">
             <img class="card-img-top3" src="dial.jfif" alt="Card image cap">
             <div class="card-body3">
               <p class="card-text">Search For Rent</p>
-            </div>
+            </div></a>
           </div>
 
             
